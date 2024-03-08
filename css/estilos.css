@@ -1,0 +1,134 @@
+/*--------------------FONDO-DE-PAGINAS-------------------------*/
+body{ /*Hacemos que todo el fondo de la paguina web sea de color negro*/
+    background-color: black;
+}
+
+
+
+/*--------------------NAVEGACIÓN-------------------------*/
+/*Aqui editamos todo lo que es el menu y la barra de arriba*/
+
+
+#barramenu{
+    display: flex; /*hacemos que los items esten puestos uno al lado de el otro*/
+    justify-content: space-between; /*Hacemos que cada uno de los items esten en lados opuestos*/
+}
+#navegador nav ul{
+    display: flex; /*hacemos que los li esten de manera continua*/
+    list-style: none; /*quitamos el punto de los li*/
+    padding: 10px; /* separamos los li de el borde*/
+
+}
+#navegador nav ul li{
+padding: 15px; /*separamos los li entre ellos */
+
+}
+#navegador nav ul li a{
+    color: white; /*cambiamos el color de la letra*/
+    font-size: 20px; /*cambiamos el tamaño de la letra*/
+}
+
+
+
+/*--------------------HOME-------------------------*/
+
+/*imagen y posicion de la imagen "gamezone"*/
+#gamezone img{
+    width:240px; /*cambiamos el tamaño de la imagen*/
+    height: 100px; /*cambiamos el tamaño de la imagen*/
+}
+
+
+
+/*-----------------COLOR-DE-LOS-TEXTOS-------------------------*/
+
+h1{
+    color: white; /*cambiamos el color de la letra*/
+    font-size: 40px; /*cambiamos el tamaño de la letra*/
+}
+
+p{
+    color: white; /*cambiamos el color de la letra*/
+    font-size: 20px; /*cambiamos el tamaño de la letra*/
+}
+
+
+
+
+
+/*-----------------IMAGENES-INDEX-------------------------*/
+
+#tiendas{
+    display: flex; /*Ponemos las fotos de los logos de las plataformas una al lado de el otro*/
+}
+
+
+#tiendas img{
+    justify-content: space-between; /*Ponemos la distribucion de las imagenes para qeu dejen un espacio entre ellas */
+    padding: 10px; /*Cambiamos la separacion que hay entre las imagenes y el div de arriba*/
+    width:480px; /*cambiamos el tamaño de la imagen*/
+    height: 240px; /*cambiamos el tamaño de la imagen*/  
+    border-style: solid;  /*Ponemos un brode alrededor de las imagenes*/
+    border-color: rgb(124, 125, 126); /*poenmos color al borde de la imagen*/
+    margin: 65px; /*hacemos que haya una separación entre las imagenes */
+}
+
+
+
+/*-----------------JUEGOS-EN-LAS-TIENDAS-------------------------*/
+
+#steam img{
+
+    justify-content: space-between; /*Ponemos la distribucion de las imagenes para qeu dejen un espacio entre ellas */
+    padding: 10px; /*Cambiamos la separacion que hay entre las imagenes y el div de arriba*/
+    width: 300px; /*cambiamos el tamaño de la imagen*/
+    height: 400px; /*cambiamos el tamaño de la imagen*/
+    border-style: solid;  /*Ponemos un borde*/
+    border-color: rgb(124, 125, 126);   /*Cambiamos el color de el borde*/
+
+}
+
+
+#playstation img{
+
+    justify-content: space-between; /*Ponemos la distribucion de las imagenes para qeu dejen un espacio entre ellas */
+    padding: 10px; /*Cambiamos la separacion que hay entre las imagenes y el div de arriba*/
+    width: 300px; /*cambiamos el tamaño de la imagen*/
+    height: 400px; /*cambiamos el tamaño de la imagen*/
+    border-style: solid;  /*Ponemos un borde*/
+    border-color: rgb(124, 125, 126);   /*Cambiamos el color de el borde*/
+
+}
+
+#nintendo img{
+
+    justify-content: space-between; /*Ponemos la distribucion de las imagenes para qeu dejen un espacio entre ellas */
+    padding: 10px; /*Cambiamos la separacion que hay entre las imagenes y el div de arriba*/
+    width: 300px; /*cambiamos el tamaño de la imagen*/
+    height: 400px; /*cambiamos el tamaño de la imagen*/
+    border-style: solid;  /*Ponemos un borde*/
+    border-color: rgb(124, 125, 126);   /*Cambiamos el color de el borde*/
+
+}
+
+#microsoft img{
+
+    justify-content: space-between; /*Ponemos la distribucion de las imagenes para qeu dejen un espacio entre ellas */
+    padding: 10px; /*Cambiamos la separacion que hay entre las imagenes y el div de arriba*/
+    width: 300px; /*cambiamos el tamaño de la imagen*/
+    height: 400px; /*cambiamos el tamaño de la imagen*/
+    border-style: solid;  /*Ponemos un borde*/
+    border-color: rgb(124, 125, 126);   /*Cambiamos el color de el borde*/
+
+}
+
+#epic img{
+
+    justify-content: space-between; /*Ponemos la distribucion de las imagenes para qeu dejen un espacio entre ellas */
+    padding: 10px; /*Cambiamos la separacion que hay entre las imagenes y el div de arriba*/
+    width: 300px; /*cambiamos el tamaño de la imagen*/
+    height: 400px; /*cambiamos el tamaño de la imagen*/
+    border-style: solid;  /*Ponemos un borde*/
+    border-color: rgb(124, 125, 126);   /*Cambiamos el color de el borde*/
+
+}
